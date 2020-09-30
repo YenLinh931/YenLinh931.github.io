@@ -1,0 +1,59 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1
+{
+    color: red;
+    background-color: seashell;
+}
+.tieude
+{
+    background-color: black;
+    width: fit-content;
+    color: white;
+}
+.khoitao
+{
+    text-align: left;
+}
+.Mixi
+{
+    text-align: center;
+}
+h3
+{
+    color: springgreen;
+    background-color: slategray;
+}
+.div1
+{
+    color: black;
+    background-color: chartreuse;
+}
+.div2
+{
+    color: black;
+    background-color: coral;
+}
+..div4
+{
+    background-color: rgb(134, 104, 116);
+    color: darkblue;
+    margin-top: 20px;
+}
+.div5
+{
+    background-color: violet;
+    color: rebeccapurple;
+    margin-top: 20px;
+}
+.hit
+{
+    color: red;
+    background-color: moccasin;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 200%;
+}
