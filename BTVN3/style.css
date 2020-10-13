@@ -1,0 +1,224 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.part1
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+span
+{
+    color: #725494;
+}
+.part1>p
+{
+    font-weight: 800;
+    font-size: 200%;
+    padding: 10px 10px 5px 10px;
+}
+.part1>p:hover
+{
+    color: #725494;
+}
+h4
+{
+    padding: 25px 10px 5px 10px;
+}
+nav
+{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+.menu
+{
+    display: flex;
+    justify-content: space-around;
+    background-color:#725494 ;
+    
+}
+.menu>div
+{
+    padding: 10px 0;
+    color: white;
+}
+.menu>div:hover
+{
+    background-color: rgb(119, 22, 119);
+}
+.course
+{
+    position: relative;
+}
+.course_menu
+{
+    display: none;
+}
+.course:hover .course_menu
+{
+    display: block;
+    color: white;
+    position: absolute;
+    top: 100%;
+    background-color: #725494;
+}
+.course_menu>div
+{
+    padding: 15px 17px;
+}
+.course_menu>div:hover
+{
+    background-color: rgba(255, 217, 0, 0.63);
+}
+.css
+{
+    position: relative;
+}
+.css_menu
+{
+    display: none;
+}
+.css:hover .css_menu
+{
+    display: block;
+    position: absolute;
+    background-color: rgb(60, 27, 112);
+    left: 100%;
+    top: 0;
+}
+.css_menu>div
+{
+    padding: 5px 10px;
+}
+.css_menu>div:hover
+{
+    background-color: rgb(41, 14, 83);
+}
+.picture
+{
+    display: flex;
+    justify-content: space-around;
+}
+.gif
+{
+    width: 40%;
+    height: 50%;
+    margin-top: -4%;
+    margin-left: 20%;
+    z-index: 1;
+}
+.image
+{
+    width: 40%;
+}
+.part2
+{
+    display: block;
+}
+h1
+{
+    color: royalblue;
+    margin-top: -8%;
+    margin-left: 20%;
+    z-index: 2;
+    font-weight: 1000;
+}
+.part2>p
+{
+    font-weight: 1000;
+    color: royalblue;
+    font-size: 150%;
+    margin-left: 20%;
+}
+.sm
+{
+    width: max-content;
+    background-color: rgb(41, 14, 83);
+    border-radius:10px ;
+    margin: 20px 0 0 20%;
+}
+.sm:hover
+{
+    background-color: rgb(7, 3, 31);
+}
+.sm>p
+{
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+}
+.part3
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.anh
+{
+    width: 43%;
+    border: solid black 5px;
+    position: relative;
+}
+.inf
+{
+    width: 40%;
+    margin-top: 150px;
+}
+.inf>p
+{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+.sale1
+{
+    width: max-content;
+    background-color: tomato;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.sale1>p
+{
+    color: white;
+    font-weight: 300;
+    padding: 5px;
+}
+.sale2
+{
+    width: max-content;
+    background-color: tomato;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.sale2>p
+{
+    color: white;
+    font-weight: 300;
+    padding: 5px;
+}
+.anh>img
+{
+    width: 100%;
+}
+.part4
+{
+    width: 100%;
+    background-color: rgb(41, 14, 83);
+    margin-top: 140px;
+}
+.part4>p
+{
+    background-color: royalblue;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 10px 0;
+    text-align: center;
+}
