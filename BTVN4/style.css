@@ -1,0 +1,329 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.page
+{
+    width: 100%;
+    display: flex;
+}
+.part1
+{
+    width: 40%;
+    position: fixed;
+    background-image: url(./_MG_8399.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+.part2
+{
+    width: calc(60% - 100px);
+    margin: 0 auto;
+}
+.youth
+{
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+}
+.youth>i
+{
+    color: black;
+}
+.dl
+{
+    padding: 5px 30px;
+    background-color: honeydew;
+    width: max-content;
+    margin: 0 auto;
+}
+.my_friend
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.my_friend>img
+{
+    width: 48%;
+    margin-bottom: 20px;
+    border: solid 5px black;
+}
+.my_friend>img:hover
+{
+    border: solid 5px red;
+}
+.text
+{
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.about
+{
+    width: 100%;
+    padding: 20px 0;
+    margin:20px 0 ;
+    text-align: justify;
+}
+h2
+{
+    color: gray;
+    margin-bottom: 10px;
+}
+.skill
+{
+    width: 100%;
+}
+h4
+{
+    color: gray;
+    margin:10px 0 ;
+}
+.a1
+{
+    width: 80%;
+    padding: 3px 0;
+    background-color: gray;
+    text-align: center;
+}
+.a2
+{
+    width: 60%;
+    padding: 3px 0;
+    background-color: gray;
+    text-align: center;
+}.a3
+{
+    width: 50%;
+    padding: 3px 0;
+    background-color: gray;
+    text-align: center;
+}
+.tk
+{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+.tk>div
+{
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    border: dashed black 2px;
+}
+.tk div>h3, .tk div>p
+{
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.dl1
+{
+    padding: 5px 30px;
+    background-color: honeydew;
+    width: max-content;
+    margin-bottom: 20px;
+}
+.edu
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: burlywood 1px solid;
+    background-color: cornsilk;
+    margin-bottom: 20px;
+}
+.me
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.me>img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 20px;
+}
+.if
+{
+    width: 100%;
+}
+.if>h5 .if>p
+{
+    font-size: 30px;
+    font-weight: 400;
+}
+.cost
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.c
+{
+    width: 48%;
+    border: black 2px solid;
+}
+.b
+{
+    background-color: gray;
+    padding: 20px 20px;
+    border: black 1px solid;
+    font-weight: 500;
+}
+.t
+{
+    border: black 1px solid;
+    padding: 10px 0;
+}
+.sb
+{
+    border: gray 1px solid;
+    width: 100%;
+}
+.sb>h5
+{
+    width: max-content;
+    background-color: honeydew;
+    padding: 20px;
+    font-size: 20px;
+}
+.contact
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.place
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.place>p
+{
+    font-weight: 500;
+    margin-left:10px ;
+}
+.image
+{
+    background-image: url(./Screenshot\ \(218\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    border: hotpink 3px solid;
+}
+.touch
+{
+    width: 100%;
+    display: block;
+}
+.o
+{
+    width: 100%;
+    border: 1px gray solid;
+    margin: 10px 0;
+}
+.o>p
+{
+    padding: 15px 10px;
+}
+.s
+{
+    width: max-content;
+    background-color: lightblue;
+}
+.s>h3
+{
+    padding: 15px 5px;
+}
+.end
+{
+    width: 100%;
+    display: block;
+    align-items: center;
+    margin-top: 20px;
+}
+.end>p
+{
+    padding: 70px 0;
+    text-align: center;
+}
+.end>p>a
+{
+    color: black;
+}
+.dl:hover
+{
+    background-color: cornflowerblue;
+    border: 2px black solid;
+}
+.dl1:hover
+{
+    background-color: cornflowerblue;
+    border: 2px black solid;
+}
+.sb>h5:hover
+{
+    background-color: cornflowerblue;
+    border: 2px black solid;
+}
+.c:hover
+{
+    border: blue 2px solid;
+}
+.s:hover
+{
+    background-color: cornflowerblue;
+    border: 2px black solid;
+}
+.end>p>i:hover
+{
+    color: cornflowerblue;
+}
+@media screen and ( max-width: 640px)
+{
+    .page
+    {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .part1
+    {
+        width: 100%;
+        height: 300px;
+        position: unset;
+        background-image: url(./_MG_8399.JPG);
+        background-size: cover;
+        background-position: center;
+        margin: 10px 0;
+    }
+    .an
+    {
+        display: none;
+    }
+    .part2
+    {
+        width: 100%;
+    }
+    .my_friend>img
+    {
+        width: 100%;
+    }   
+}
