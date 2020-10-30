@@ -13,7 +13,7 @@
 {
     width: 40%;
     position: fixed;
-    background-image: url(./_MG_8399.JPG);
+    background-image: url(./hit.JPG);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -309,7 +309,7 @@ h4
         width: 100%;
         height: 300px;
         position: unset;
-        background-image: url(./_MG_8399.JPG);
+        background-image: url(./hit.JPG);
         background-size: cover;
         background-position: center;
         margin: 10px 0;
