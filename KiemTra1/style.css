@@ -1,0 +1,245 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header
+{
+    width: 80%;
+    display: flex;
+    padding: 40px 30px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.img1
+{
+    width: 25%;
+    width: 30px;
+    height: 30px;
+    margin-right: 100px;
+    align-items: center;
+}
+.header1
+{
+    width: 80%;
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+}
+.header1>p
+{
+    margin-right: 30px;
+}
+.header2
+{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header2_2
+{
+    border: 1px red solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.header2_1>p
+{
+    color: rgba(9, 146, 238, 0.808);
+}
+.header2_1>p:hover
+{
+    font-style: unset;
+}
+.header2_2:hover
+{
+    background-color: red;
+}
+.header1>p:hover
+{
+    color: rgba(9, 146, 238, 0.808);
+}
+h1
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.text1
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.container1
+{
+    width: 100%;
+    display: flex;
+}
+.img2
+{
+    width: 400px;
+    height: 400px;
+}
+.tick
+{
+    margin-top: 20px;
+}
+.tick>i
+{
+    margin:0 15px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.choose
+{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.choose1
+{
+    width: max-content;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+.choose2
+{
+    color: blue;
+}
+.choose2:hover
+{
+    border: 2px solid rgb(80, 80, 109);
+    border-radius: 5px;
+    padding: 10px;
+}
+.container2
+{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.container2_1>p
+{
+    width: 20%;
+    border: 1px solid rgb(153, 153, 197);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+.container2_1>p:hover
+{
+    background-color: gray;
+}
+.container2_1
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container3
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    background-color: cornsilk;
+}
+.img3
+{
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+}
+.text2
+{
+    padding: 30px;
+}
+.container4
+{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.kokoon
+{
+    width: 100%;
+    border: 1px solid rgb(96, 96, 112);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.kk1
+{
+    text-align: center;
+    color: gray;
+}
+h5
+{
+    padding: 30px 0;
+}
+.kk2
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* h4
+{
+    margin: 10px 0;
+} */
+.kk2>p, .kk2>i, .kk2>h4
+{
+    margin: 20px 0;
+}
+.kk2>i
+{
+    color: white;
+    width: max-content;
+    background-color: red;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.footer
+{
+    width: 100%;
+    display: flex;
+    padding: 100px 40px;
+    box-sizing: border-box;
+    justify-content:space-between;
+    background-color: blue;
+}
+.icon
+{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.icon>i
+{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.footer>p
+{
+    color: white;
+}
+
+
+
+
